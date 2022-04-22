@@ -20,7 +20,7 @@ public class ProductRepositoryMockTest {
     @Test
     void whenFindByCategory_thenReturnListProduct() {
         Product product = Product.builder()
-                .name("")
+                .name("Aleatorio para prueba")
                 .category(Category.builder().id(1L).build())
                 .description("")
                 .stock(Double.parseDouble("10"))
